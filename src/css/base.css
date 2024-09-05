@@ -3,3 +3,10 @@
 body {
   font-family: 'gilroy', sans-serif;
 }
+
+.container {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+}
