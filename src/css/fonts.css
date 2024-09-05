@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'InterTight';
+  src: url('../font/bold/Gilroy-Bold.ttf');
+  font-weight: 700;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'InterTight';
+  src: url('../font/medium/Gilroy-Medium.ttf');
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'InterTight';
+  src: url('../font/regular/Gilroy-Regular.ttf');
+  font-weight: 400;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: 'InterTight';
+  src: url('../font/semibold/Gilroy-Semibold.ttf');
+  font-weight: 500;
+  font-style: semibold;
+}
