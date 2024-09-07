@@ -65,8 +65,16 @@ font-size: 14px;
 line-height: 129%;
 text-align: center;
 color: #fbfbfb;
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
 }
+
+.advertisement-contacts-us:hover,
+.advertisement-contacts-us:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+}
+
 
   
   
@@ -149,7 +157,14 @@ font-size: 14px;
 line-height: 129%;
 text-align: center;
 color: #fbfbfb;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
+}
 
+.advertisement-contacts-us:hover,
+.advertisement-contacts-us:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
 }
 
 .advertisement-section {
@@ -225,25 +240,14 @@ display: flex;
     line-height: 129%;
     text-align: center;
     color: #fbfbfb;
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
     }
 
-    .advertisement-contacts-us {
-   
-    border: 1px solid rgba(251, 251, 251, 0.15);
-    background-color: transparent;
-border-radius: 16px;
-width: 160px;
-min-width: 160px;
-height: 48px;
-
-font-family: "Gilroy", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-text-align: center;
-color: #fbfbfb;
-
+.advertisement-contacts-us:hover,
+.advertisement-contacts-us:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
 }
 
 .advertisement-section {
