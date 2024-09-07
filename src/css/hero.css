@@ -1,0 +1,118 @@
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 28px;
+  padding: 60px 20px 0;
+  margin-bottom: 60px;
+}
+
+.title-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.blue-word {
+  color: #3350e9;
+}
+
+.text-hero {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.peeple-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 44px;
+}
+
+.peeple-list {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 108px;
+  height: 44px;
+}
+
+.peeple-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+}
+
+.peeple-img:nth-child(2) {
+  transform: translateX(-8px);
+}
+.peeple-img:nth-child(3) {
+  transform: translateX(-16px);
+}
+
+.persone {
+  border: none;
+  background-color: transparent;
+  border-radius: 100%;
+  stroke-width: 2px;
+  stroke: #fbfbfb;
+}
+
+.scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+}
+
+.hero-img {
+  border-radius: 30px;
+  width: 100%;
+  background: #000000;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(12, 12, 12, 0.2),
+      rgba(12, 12, 12, 0.2)
+    ),
+    url(../img/hero/hero-watch-m.jpg);
+  max-width: 100%;
+  height: 366px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .hero-img {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.2),
+        rgba(12, 12, 12, 0.2)
+      ),
+      url(../img/hero/hero-watch-m-2x.jpg);
+  }
+}
