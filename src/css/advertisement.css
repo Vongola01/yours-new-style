@@ -1,0 +1,274 @@
+* {
+    margin: 0 auto;
+    font-family: "Gilroy", sans-serif;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        margin: 0 auto;
+        max-width: 1280px;
+        padding: 0 20px;
+    }
+
+    .advertisement-bg {
+        display: flex;
+        flex-direction: row;
+    align-items: baseline;
+    }
+
+    .advertisement-container {
+        padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 83px;
+    padding-bottom: 83px;
+    }
+
+
+
+    
+
+.advertisement {
+    min-width: 730px;
+    height: 132px;
+    font-family: "Gilroy", sans-serif;
+font-weight: 600;
+font-size: 48px;
+
+/* line-height: 44px; */ 
+line-height: 92%;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+word-wrap: break-word;
+overflow-wrap: break-word;
+margin-right: 140px;
+}
+
+.advertisement-story {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-contacts-us {
+   
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    background-color: transparent;
+border-radius: 16px;
+width: 160px;
+min-width: 160px;
+height: 48px;
+
+font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+text-align: center;
+color: #fbfbfb;
+
+}
+
+  
+  
+  .advertisement-section {
+    background-color: #0c0c0c;
+    border-radius: 30px;
+    
+min-width: 335px; 
+height: 363px;
+display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement2x.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-repeat: no-repeat;
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-top: 83px;
+      padding-bottom: 83px;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .advertisement-section {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement2x.jpg);
+        } 
+    }
+}
+   
+    
+        
+     
+
+
+
+   @media (min-width: 768px) and (max-width: 1279px) {
+
+    .container {
+        margin: 0 auto;
+        max-width: 768px;
+    padding: 0 32px;
+  }
+  .advertisement-container {
+    padding: 80px 64px 80px 64px;
+  }
+
+  .advertisement {
+    font-family: "Gilroy", sans-serif;
+font-weight: 600;
+font-size: 48px;
+line-height: 92%;
+letter-spacing: -0.02em;
+color: #fbfbfb;
+word-wrap: break-word;
+overflow-wrap: break-word;
+width: 600px;
+height: 185px;
+margin-bottom: 32px;
+}
+
+.advertisement-story {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-contacts-us {
+   
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    background-color: transparent;
+border-radius: 16px;
+width: 160px;
+min-width: 160px;
+height: 48px;
+
+font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+text-align: center;
+color: #fbfbfb;
+
+}
+
+.advertisement-section {
+    background-color: #0c0c0c;
+    border-radius: 30px;
+    
+    width: 704px;
+    height: 425px;
+display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/bg-mob-min.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-repeat: no-repeat;
+      
+  } 
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .advertisement-section {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/bg-mob2x-min.jpg);
+        } 
+
+
+    
+}
+   }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 320px;
+    }
+
+    .advertisement-container {
+        padding: 60px 28px 60px 28px;
+    }
+
+    .advertisement {
+        font-family: "Gilroy", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 279px;
+    height: 167px;
+    margin-bottom: 28px;
+    }
+
+    .advertisement-story {
+        color: rgba(251, 251, 251, 0.5);
+    }
+
+    .advertisement-contacts-us {
+   
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        background-color: transparent;
+    border-radius: 16px;
+    width: 160px;
+    min-width: 160px;
+    height: 48px;
+    
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: #fbfbfb;
+    
+    }
+
+    .advertisement-contacts-us {
+   
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    background-color: transparent;
+border-radius: 16px;
+width: 160px;
+min-width: 160px;
+height: 48px;
+
+font-family: "Gilroy", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+text-align: center;
+color: #fbfbfb;
+
+}
+
+.advertisement-section {
+    background-color: #0c0c0c;
+    border-radius: 30px;
+    
+    width: 335px;
+    height: 363px;
+display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement-tel-min.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-repeat: no-repeat;
+      
+  } 
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .advertisement-section {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement-tel2x-min.jpg);
+        } 
+
+
+}
+}
