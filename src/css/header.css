@@ -139,6 +139,9 @@ height: 34px;
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+}
   .header {
     padding: 26px 0;
     height: 92px;
@@ -174,6 +177,9 @@ height: 34px;
   }
 }
 @media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+}
   .header {
     height: 88px;
   }
@@ -183,7 +189,7 @@ height: 34px;
   .nav-list  {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 40px;
     margin-right: 203px;
   }
@@ -196,6 +202,7 @@ height: 34px;
     gap: 203px;
   }
   .nav-link {
+    display: inline-block;
     font-weight: 500;
 font-size: 14px;
 line-height: 1.29;
