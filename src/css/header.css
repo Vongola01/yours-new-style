@@ -100,15 +100,15 @@ line-height: 1.29;
 text-align: center;
 color: #fbfbfb;
 }
-.mob-nav-list.current::after {
+.mob-nav-link.current::after {
 content: '';
 display: inline-flex;
 border-radius: 100%;
 background-color: #3350e9;
 position: absolute;
-top: 2px;
-left: 50%;
-width: 9px;
+bottom: -12px;
+left: 40%;
+width: 8px;
 height: 8px;
 }
 .mob-social-list {
@@ -139,6 +139,17 @@ height: 34px;
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    padding: 26px 0;
+    height: 92px;
+  }
+  .nav-logo {
+    font-size: 20px;
+  }
+  .mob-menu-open-icon {
+    width: 40px;
+    height: 40px;
+  }
   .mob-menu {
     background-image: linear-gradient(
             rgba(12, 12, 12, 0.92),
@@ -155,12 +166,43 @@ height: 34px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .mob-menu {
+  .header {
+    height: 88px;
+  }
+  .mob-menu, .mob-menu-open-btn {
     display: none;
+  }
+  .nav-list, .social-list {
+    display: flex;
   }
   .nav {
     display: flex;
-    justify-content: space-between;
+    gap: 203px;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .nav-link {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+color: #0c0c0c;
+position: relative;
+  }
+  .nav-link.current::after {
+    content: '';
+    display: inline-flex;
+    border-radius: 100%;
+    background-color: #3350e9;
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    width: 8px;
+    height: 8px;
   }
 }
 
