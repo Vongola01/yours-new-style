@@ -3,10 +3,18 @@
   font-family: 'Gilroy', sans-serif;
 }
 
-.container {
-  padding: 0 20px;
-  min-width: 335px;
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    height: 100%; 
 }
+
+    .container {
+        max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+    }
+
 
 .advertisement-container {
   padding: 60px 28px 60px 28px;
@@ -55,44 +63,45 @@
   color: #0c0c0c;
 }
 
-.advertisement-section {
-  background-color: #0c0c0c;
-  border-radius: 30px;
 
-  width: 335px;
-  height: 363px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(
-      rgba(12, 12, 12, 0.8),
-      rgba(12, 12, 12, 0.8)
-    ),
-    url(../img/about/img-advertisement/advertisement-tel-min.jpg);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  background-repeat: no-repeat;
-}
-@media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .advertisement-section {
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.8),
-        rgba(12, 12, 12, 0.8)
-      ),
-      url(../img/about/img-advertisement/advertisement-tel2x-min.jpg);
-  }
-}
+.advertisement-container {
+    background-color: #0c0c0c;
+    border-radius: 30px;
+    
+    max-width: 335px;
+    height: 363px;
+display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement-tel-min.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-repeat: no-repeat;
+      padding: 60px 28px 60px 28px;
+  } 
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .advertisement-container {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement-tel2x-min.jpg);
+           
+            
+        } 
+
+
+
 
 @media (min-width: 768px) {
-  .container {
-    min-width: 704px;
-    padding: 0 32px;
+
+
+    .container {
+
+        max-width: 768px;
+        padding: 0 32px;
   }
   .advertisement-container {
-    padding: 80px 64px 80px 64px;
+    
   }
 
   .advertisement {
@@ -138,44 +147,47 @@
     color: #0c0c0c;
   }
 
-  .advertisement-section {
+
+.advertisement-container {
     background-color: #0c0c0c;
     border-radius: 30px;
-
-    width: 704px;
+    
+    max-width: 704px;
     height: 425px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.8),
-        rgba(12, 12, 12, 0.8)
-      ),
-      url(../img/about/img-advertisement/bg-mob-min.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    background-repeat: no-repeat;
-  }
+display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/bg-mob-min.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-repeat: no-repeat;
+      padding: 80px 64px 80px 64px;
+  } 
+
+  
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .advertisement-section {
-      background-image: linear-gradient(
-          rgba(12, 12, 12, 0.8),
-          rgba(12, 12, 12, 0.8)
-        ),
-        url(../img/about/img-advertisement/bg-mob2x-min.jpg);
-    }
-  }
+
+        .advertisement-container {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/bg-mob2x-min.jpg);
+            
+
+
+    
+}
+   }
 }
 
-@media (min-width: 1280px) {
-  .container {
-    min-width: 1150px;
-    padding: 0 20px;
-  }
+   @media (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+    padding: 0 65px;
+    }
+
 
   .advertisement-bg {
     display: flex;
@@ -183,12 +195,15 @@
     align-items: baseline;
   }
 
-  .advertisement-container {
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 83px;
-    padding-bottom: 83px;
-  }
+
+    .advertisement-container {
+       
+    }
+
+
+
+    
+
 
   .advertisement {
     min-width: 730px;
@@ -235,39 +250,36 @@
     color: #0c0c0c;
   }
 
-  .advertisement-section {
+
+  
+  
+  .advertisement-container {
     background-color: #0c0c0c;
     border-radius: 30px;
+    
+max-width: 1150px; 
+height: 298px;
+display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement2x.jpg);
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-repeat: no-repeat;
+      padding: 83px 80px 83px 80px;
 
-    max-width: 1150px;
-    height: 298px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(
-        rgba(12, 12, 12, 0.8),
-        rgba(12, 12, 12, 0.8)
-      ),
-      url(../img/about/img-advertisement/advertisement2x.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    background-repeat: no-repeat;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 83px;
-    padding-bottom: 83px;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .advertisement-section {
-      background-image: linear-gradient(
-          rgba(12, 12, 12, 0.8),
-          rgba(12, 12, 12, 0.8)
-        ),
-        url(../img/about/img-advertisement/advertisement2x.jpg);
+
+        .advertisement-container {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement2x.jpg);
+            
+        } 
+
     }
   }
 }
