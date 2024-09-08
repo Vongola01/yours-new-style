@@ -3,10 +3,10 @@
   font-family: 'Gilroy', sans-serif;
 }
 
-.container {
+/* .container {
   padding: 0 20px;
   min-width: 335px;
-}
+} */
 
 .advertisement-container {
   padding: 60px 28px 60px 28px;
@@ -73,6 +73,7 @@
   background-position: center;
   position: relative;
   background-repeat: no-repeat;
+  margin-bottom: 60px;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -87,10 +88,10 @@
 }
 
 @media (min-width: 768px) {
-  .container {
+  /* .container {
     min-width: 704px;
     padding: 0 32px;
-  }
+  } */
   .advertisement-container {
     padding: 80px 64px 80px 64px;
   }
@@ -156,6 +157,7 @@
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
+    margin-bottom: 80px;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -257,6 +259,7 @@
     padding-right: 80px;
     padding-top: 83px;
     padding-bottom: 83px;
+    margin-bottom: 100px;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
