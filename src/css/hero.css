@@ -138,8 +138,8 @@
     flex-wrap: wrap;
     column-gap: 40px;
     padding-top: 80px;
-    padding-left: 32px;
-    padding-right: 32px;
+    /* padding-left: 32px;
+    padding-right: 32px; */
   }
 
   .hero-container {
@@ -181,6 +181,7 @@
   }
 
   .hero-img {
+    border-radius: 50px;
     height: 520px;
     background-image: linear-gradient(
         to bottom,
@@ -209,10 +210,10 @@
     max-width: 1280px;
   }
 
-  .hero {
+  /* .hero {
     padding-left: 65px;
     padding-right: 65px;
-  }
+  } */
 
   .hero-container {
     height: 269px;
