@@ -8,13 +8,23 @@
   margin-bottom: 60px;
 }
 
-.title-box {
+.hero-container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  gap: 28px;
+  width: 100%;
+}
+
+.title-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
   gap: 20px;
   width: 100%;
+  height: 100%;
 }
 
 .title {
@@ -32,22 +42,21 @@
 .text-hero {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
 
-.peeple-hero {
+.peeple-cont {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
   width: 100%;
-  height: 44px;
+  height: 100%;
 }
 
 .peeple-list {
-  position: relative;
   display: flex;
   flex-direction: row;
   width: 108px;
@@ -60,13 +69,15 @@
   align-items: center;
   border: none;
   border-radius: 50%;
+  width: 44px;
+  height: 44px;
 }
 
 .peeple-img:nth-child(2) {
   transform: translateX(-8px);
 }
 .peeple-img:nth-child(3) {
-  transform: translateX(-16px);
+  transform: translateX(-20px);
 }
 
 .persone {
@@ -75,6 +86,7 @@
   border-radius: 100%;
   stroke-width: 2px;
   stroke: #fbfbfb;
+  width: 100%;
 }
 
 .scroll {
@@ -114,5 +126,144 @@
         rgba(12, 12, 12, 0.2)
       ),
       url(../img/hero/hero-watch-m-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    max-width: 768px;
+  }
+
+  .hero {
+    flex-wrap: wrap;
+    column-gap: 40px;
+    padding-top: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .hero-container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 11px;
+    width: 100%;
+    height: 260px;
+  }
+
+  .title-box {
+    max-width: 557px;
+  }
+
+  .title {
+    font-size: 70px;
+    line-height: 0.85;
+  }
+
+  .text-hero {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .peeple-cont {
+    flex-direction: column;
+    width: 136px;
+    height: 100%;
+  }
+
+  .peeple-list {
+    width: 136px;
+    height: 60px;
+  }
+
+  .peeple-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .hero-img {
+    height: 520px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.2),
+        rgba(12, 12, 12, 0.2)
+      ),
+      url(../img/hero/hero-watch-t.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero-img {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(12, 12, 12, 0.2),
+          rgba(12, 12, 12, 0.2)
+        ),
+        url(../img/hero/hero-watch-t-2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    max-width: 1280px;
+  }
+
+  .hero {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+
+  .hero-container {
+    height: 269px;
+  }
+
+  .title-box {
+    max-width: 597px;
+  }
+
+  .title {
+    line-height: 0.87;
+  }
+
+  .text-hero {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .peeple-cont {
+    width: 146px;
+  }
+
+  .peeple-list {
+    width: 146px;
+  }
+
+  .peeple-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .hero-img {
+    height: 520px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(12, 12, 12, 0.2),
+        rgba(12, 12, 12, 0.2)
+      ),
+      url(../img/hero/hero-watch-d.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .hero-img {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(12, 12, 12, 0.2),
+          rgba(12, 12, 12, 0.2)
+        ),
+        url(../img/hero/hero-watch-d-2x.jpg);
+    }
   }
 }
