@@ -99,6 +99,7 @@
 @media screen and (min-width: 1280px) {
   .container_reviews {
     margin-bottom: 100px;
+    padding: 0 65px;
   }
   .reviews_itam_tab {
     display: contents;
