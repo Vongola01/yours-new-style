@@ -1,4 +1,4 @@
-#contact-us {
+.contact-us {
   margin-bottom: 60px;
 }
 
@@ -99,6 +99,9 @@
   .container {
     max-width: 768px;
   }
+  .contact-us {
+    margin-bottom: 80px;
+  }
   .contact-title {
     font-size: 48px;
     line-height: 0.92;
@@ -142,6 +145,9 @@
     max-width: 1280px;
     /* margin-left: 33px;
         margin-right: 33px; */
+  }
+  .contact-us {
+    margin-bottom: 100px;
   }
   .contact-list {
     display: flex;
