@@ -1,3 +1,4 @@
+/* .footer {} */
 .footer-wrap {
   padding: 40px 28px 28px 28px;
   background-color: #0c0c0c;
@@ -31,6 +32,15 @@
   width: 34px;
   height: 34px;
 }
+.socialf-icon {
+  opacity: 0.8;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.socialf-icon:hover,
+.socialf-icon:focus {
+  opacity: 1;
+}
+
 .footer-phon {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
@@ -164,6 +174,10 @@
   .socialf-item {
     width: 36px;
     height: 36px;
+  }
+  .socialf-icon {
+    width: 20px;
+    height: 20px;
   }
   .footer-phon {
     width: 160px;
