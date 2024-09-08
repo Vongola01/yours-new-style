@@ -3,10 +3,6 @@
     font-family: "Gilroy", sans-serif;
 }
 
-
-
-   
-@media (min-width: 320px) {
     .container {
         padding: 0 20px;
         min-width: 335px;
@@ -84,7 +80,7 @@ display: flex;
 
 
 }
-} 
+
 
 @media (min-width: 768px) {
 
