@@ -1,0 +1,115 @@
+.sale {
+  padding: 20px;
+}
+.sale-container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.sale-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+.sale-product-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.sale-gallery-list {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  background-color: #f3f3f3;
+}
+.sale-product-main {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 385px;
+  background-color: #f3f3f3;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  position: relative;
+  mix-blend-mode: multiply;
+  padding: 24px 28px 10px 28px;
+}
+.sale-product-info {
+  background-color: #0053ff;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.title-product-info {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.sale-product-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  margin: 10px 0;
+}
+.sale-price {
+  display: flex;
+}
+.sale-new-price {
+  border-radius: 8px;
+  width: 68px;
+  height: auto;
+  background: rgba(251, 251, 251, 0.1);
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+.sale-old-price {
+  text-decoration: line-through;
+  margin-left: 10px;
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+.sale-description {
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  font-family: 'Gilroy', sans-serif;
+}
+.sale-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.sale-tag {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  height: 32px;
+}
