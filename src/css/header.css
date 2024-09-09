@@ -62,6 +62,11 @@
   background-color: transparent;
   border: none;
 }
+.mob-menu-open-icon {
+fill: #0c0c0c;
+width: 34px;
+height: 34px;
+}
 .container.mob-menu-container {
   position: relative;
   padding: 0 20px;
@@ -79,7 +84,9 @@
 }
 .mob-menu-close-icon {
   fill: #fff;
-}
+    width: 40px;
+    height: 40px;
+  }
 .mob-menu-container {
   display: flex;
   flex-direction: column;
