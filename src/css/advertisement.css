@@ -1,266 +1,70 @@
-* {
-    margin: 0 auto;
-    font-family: "Gilroy", sans-serif;
-}
-
-@media (min-width: 0px) {
-    .container {
-        max-width: 375px;
-  padding: 0 20px;
-  margin: 0 auto;
-    }
-
-    
-
-    .advertisement {
-        font-family: "Gilroy", sans-serif;
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 100%;
-        letter-spacing: -0.02em;
-        color: #fbfbfb;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    width: 279px;
-    height: 167px;
-    margin-bottom: 28px;
-    }
-
-    .advertisement-story {
-        color: rgba(251, 251, 251, 0.5);
-    }
-
-    .advertisement-contacts-us {
-   
-        border: 1px solid rgba(251, 251, 251, 0.15);
-        background-color: transparent;
-    border-radius: 16px;
-    width: 160px;
-    min-width: 160px;
-    height: 48px;
-    
-    font-family: "Gilroy", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    text-align: center;
-    color: #fbfbfb;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-cursor: pointer;
-
-    }
-
-.advertisement-contacts-us:hover,
-.advertisement-contacts-us:focus {
-    background-color: #fbfbfb;
-    color: #0c0c0c;
-}
-
-.advertisement-container {
-    background-color: #0c0c0c;
+.advertisement-section {
+    margin-bottom: 60px;
+    /* background-color: black; */
+    padding: 60px 20px;
+    background-image: url(../img/advertisement/advertisement.jpg);
+    background-size: cover;
     border-radius: 30px;
-    
-    max-width: 335px;
-    height: 363px;
-display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement-tel-min.jpg);
-      background-size: cover;
-      background-position: center;
-      position: relative;
-      background-repeat: no-repeat;
-      padding: 60px 28px 60px 28px;
-  } 
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .advertisement-container {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement-tel2x-min.jpg);
-           
-            
-        } 
-
-
-}
-}
-
-@media (min-width: 768px) {
-
-    .container {
-
-        max-width: 768px;
-        padding: 0 32px;
+    background-position: center;
+    background-repeat: no-repeat;
   }
-  .advertisement-container {
-    
-  }
-
   .advertisement {
-    font-family: "Gilroy", sans-serif;
-font-weight: 600;
-font-size: 48px;
-line-height: 92%;
-letter-spacing: -0.02em;
-color: #fbfbfb;
-word-wrap: break-word;
-overflow-wrap: break-word;
-width: 600px;
-height: 185px;
-margin-bottom: 32px;
-}
-
-.advertisement-story {
-    color: rgba(251, 251, 251, 0.5);
-}
-
-.advertisement-contacts-us {
-   
-    border: 1px solid rgba(251, 251, 251, 0.15);
-    background-color: transparent;
-border-radius: 16px;
-width: 160px;
-min-width: 160px;
-height: 48px;
-
-font-family: "Gilroy", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-text-align: center;
-color: #fbfbfb;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-cursor: pointer;
-}
-
-.advertisement-contacts-us:hover,
-.advertisement-contacts-us:focus {
-    background-color: #fbfbfb;
-    color: #0c0c0c;
-}
-
-.advertisement-container {
-    background-color: #0c0c0c;
-    border-radius: 30px;
-    
-    max-width: 704px;
-    height: 425px;
-display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/bg-mob-min.jpg);
-      background-size: cover;
-      background-position: center;
-      position: relative;
-      background-repeat: no-repeat;
-      padding: 80px 64px 80px 64px;
-  } 
-
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .advertisement-container {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/bg-mob2x-min.jpg);
-            
-
-
-    
-}
-   }
-}
-
-   @media (min-width: 1280px) {
-
-    .container {
-        max-width: 1280px;
-    padding: 0 65px;
-    }
-
-    .advertisement-bg {
-        display: flex;
-        flex-direction: row;
-    align-items: baseline;
-    }
-
-    .advertisement-container {
-       
-    }
-
-
-
-    
-
-.advertisement {
-    min-width: 730px;
-    height: 132px;
-    font-family: "Gilroy", sans-serif;
-font-weight: 600;
-font-size: 48px;
-
-/* line-height: 44px; */ 
-line-height: 92%;
-letter-spacing: -0.02em;
-color: #fbfbfb;
-word-wrap: break-word;
-overflow-wrap: break-word;
-margin-right: 140px;
-}
-
-.advertisement-story {
-    color: rgba(251, 251, 251, 0.5);
-}
-
-.advertisement-contacts-us {
-   
-    border: 1px solid rgba(251, 251, 251, 0.15);
-    background-color: transparent;
-border-radius: 16px;
-width: 160px;
-min-width: 160px;
-height: 48px;
-
-font-family: "Gilroy", sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-text-align: center;
-color: #fbfbfb;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-cursor: pointer;
-}
-
-.advertisement-contacts-us:hover,
-.advertisement-contacts-us:focus {
-    background-color: #fbfbfb;
-    color: #0c0c0c;
-}
-
-
-  
-  
-  .advertisement-container {
-    background-color: #0c0c0c;
-    border-radius: 30px;
-    
-max-width: 1150px; 
-height: 298px;
-display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement.jpg);
-      background-size: cover;
-      background-position: center;
-      position: relative;
-      background-repeat: no-repeat;
-      padding: 83px 80px 83px 80px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 28px;
   }
-
-  @media screen and (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .advertisement-container {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 12, 12, 0.8)), url(../img/about/img-advertisement/advertisement2x.jpg);
-            
-        } 
+  .advertisement-story {
+    color: rgba(251, 251, 251, 0.5);
+  }
+  .advertisement-contacts-us {
+    padding: 15px 44px;
+    background-color: transparent;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+  }
+  .advertisement-contacts-us:hover {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+  }
+  @media (min-width: 768px) {
+    .advertisement {
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 0.91667;
+      letter-spacing: -0.02em;
+      color: #fbfbfb;
     }
-}
+    .advertisement-section {
+      padding: 80px 64px;
+      background-image: url(../img/advertisement/advertisement-tablet.jpg);
+    }
+    .advertisement-contacts-us {
+      margin-top: 32px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .advertisement-section {
+      background-image: url(../img/advertisement/advertisement-desktop.jpg);
+      display: flex;
+    }
+    .advertisement {
+      margin-right: 120px;
+    }
+    .advertisement-contacts-us {
+      margin-top: 0px;
+      min-width: 170px;
+      height: 48px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.28571;
+      text-align: center;
+      color: #fbfbfb;
+    }
+  }
