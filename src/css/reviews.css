@@ -1,5 +1,5 @@
 .container_reviews {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 .title_reviews {
   font-family: 'Gilroy', sans-serif;
@@ -8,7 +8,6 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  padding-bottom: 4px;
   margin-bottom: 24px;
 }
 
@@ -77,22 +76,17 @@
   }
   .container_reviews_itam {
     min-width: 344px;
-    
   }
   .container_reviews_itam_info {
     min-width: 272px;
   }
   .reviews_title_item {
-    
     font-size: 18px;
     line-height: 1.1;
-    
   }
   .reviews_text_item {
-   
     font-size: 16px;
     line-height: 1.25;
-  
   }
 }
 
@@ -113,7 +107,6 @@
   }
   .container_reviews_itam {
     min-width: 370px;
-   
   }
   .container_reviews_itam_info {
     min-width: 298px;

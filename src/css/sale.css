@@ -1,5 +1,5 @@
 .sale {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 .sale-container {
   max-width: 375px;
@@ -55,7 +55,7 @@
 .sale-product-info {
   background: #3350e9;
   color: white;
-  padding: 20px;
+  padding: 28px;
   border-radius: 20px;
   margin-top: 20px;
 }
@@ -140,6 +140,7 @@
 @media screen and (min-width: 768px) {
   .sale-container {
     max-width: 768px;
+    padding-bottom: 80px;
   }
   .sale-galery {
     display: flex;
@@ -205,6 +206,7 @@
   .sale-container {
     max-width: 1280px;
     padding: 0 65px;
+    padding-bottom: 100px;
   }
   .sale {
     padding: 0;
