@@ -92,7 +92,7 @@
 
 .scroll {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
   text-decoration: underline;
@@ -135,13 +135,10 @@
     max-width: 768px;
   }
 
-  .hero {
+  .container.hero {
     flex-wrap: wrap;
     column-gap: 40px;
-    padding-top: 80px;
-    /* padding-left: 32px;
-    padding-right: 32px; */
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
 
   .hero-container {
@@ -181,6 +178,11 @@
   .peeple-img {
     width: 56px;
     height: 56px;
+  }
+
+  .scroll {
+    font-size: 20px;
+    line-height: 1;
   }
 
   .hero-img {
@@ -245,6 +247,10 @@
   .peeple-img {
     width: 60px;
     height: 60px;
+  }
+
+  .scroll {
+    font-size: 20px;
   }
 
   .hero-img {
