@@ -1,5 +1,4 @@
 .sale {
-  padding: 20px;
   margin-bottom: 60px;
 }
 .sale-container {
@@ -123,9 +122,14 @@
 .sale-tag {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
-  padding: 8px 12px;
+  align-items: center;
   height: 32px;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
 }
 .sale-tag-name {
   font-weight: 500;
