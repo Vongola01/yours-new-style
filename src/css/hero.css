@@ -5,7 +5,7 @@
   flex-direction: column;
   gap: 28px;
   padding-top: 60px;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .hero-container {
@@ -94,7 +94,7 @@
 .scroll {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -136,12 +136,11 @@
     max-width: 768px;
   }
 
-  .hero {
+  .container.hero {
     flex-wrap: wrap;
     column-gap: 40px;
     padding-top: 80px;
-    /* padding-left: 32px;
-    padding-right: 32px; */
+    padding-bottom: 80px;
   }
 
   .hero-container {
@@ -181,6 +180,11 @@
   .peeple-img {
     width: 56px;
     height: 56px;
+  }
+
+  .scroll {
+    font-size: 20px;
+    line-height: 1;
   }
 
   .hero-img {
