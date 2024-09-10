@@ -96,7 +96,6 @@
   .about-container {
     display: flex;
     gap: 40px;
-    margin: 0;
     margin-bottom: 100px;
   }
   .about-box {
