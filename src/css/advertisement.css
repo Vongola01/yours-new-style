@@ -17,7 +17,7 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    margin-bottom: 28px;
+    padding-bottom: 28px;
   }
   .advertisement-story {
     color: rgba(251, 251, 251, 0.5);
@@ -60,7 +60,7 @@
       display: flex;
     }
     .advertisement {
-      margin-right: 120px;
+      padding-right: 120px;
     }
     .advertisement-contacts-us {
       margin-top: 0px;
