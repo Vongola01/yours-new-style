@@ -1,0 +1,185 @@
+.catalog-container {
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.catalog {
+  /* background-color: #fbfbfb; */
+  padding: 0 0 60px;
+}
+
+/* Заголовок секції Catalog (h2) */
+.catalog-title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: start;
+  text-transform: capitalize;
+  color: #0c0c0c;
+}
+
+/* Список секції Catalog (ul) */
+.catalog-group {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* Елементи секції Catalog (li) */
+.catalog-list {
+  width: 100%;
+  background-color: #f3f3f3;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  padding: 24px 28px 0 28px;
+}
+
+.catalog-list:nth-child(5),
+.catalog-list:nth-child(6) {
+  display: none;
+}
+
+/* Контейнер замість зображення скритий (div) */
+.img-sumb {
+  position: relative;
+  mix-blend-mode: multiply;
+  margin-bottom: 10px;
+}
+
+/* Контейнер під зображенням (div) */
+.catalog-group .catalog-card {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 24px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+/* Підзоголовок секції Catalog (h3) */
+.catalog-subtitle {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #0c0c0c;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Текс секції Catalog (р) */
+.catalog-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+/* Кнопка */
+.catalog-button {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 160px;
+  height: 48px;
+  border-radius: 16px;
+  border: none;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  text-align: center;
+  outline: none;
+  background-color: #3350e9;
+  color: #fbfbfb;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.catalog-button:hover,
+.catalog-button:focus {
+  background-color: #1f3cd4;
+}
+
+/* ========================================================================================================================================================
+  Налаштування для планшету Catalog
+  ======================================================================================================================================================== */
+@media screen and (min-width: 768px) {
+  .catalog-container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .catalog {
+    padding: 0 0 80px;
+  }
+
+  .catalog-title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.92;
+  }
+
+  .catalog-group {
+    column-gap: 16px;
+    row-gap: 32px;
+  }
+
+  .catalog-list {
+    width: calc((100% - 16px) / 2);
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .catalog-list:nth-child(5),
+  .catalog-list:nth-child(6) {
+    display: list-item;
+  }
+
+  .catalog-group .catalog-card {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .catalog-subtitle {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .catalog-button {
+    display: none;
+  }
+}
+
+/* ========================================================================================================================================================
+  Налаштування для десктопу Catalog
+======================================================================================================================================================== */
+@media screen and (min-width: 1280px) {
+  .catalog-container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  .catalog {
+    padding: 0 0 100px;
+  }
+
+  .catalog-group {
+    column-gap: 23px;
+  }
+
+  .catalog-list {
+    width: calc((100% - 46px) / 3);
+  }
+}
