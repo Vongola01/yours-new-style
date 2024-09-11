@@ -32,7 +32,7 @@ align-items: center;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
-  background-image: url("../img/mob-menu/watch-bg-mob@1x.jpg"), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
+  background-image: url(../img/mob-menu/watch-bg-mob@1x.jpg), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
