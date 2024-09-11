@@ -1,0 +1,114 @@
+.container_reviews {
+  padding-bottom: 60px;
+}
+.title_reviews {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+.container_reviews_itam {
+  border-radius: 30px;
+  padding: 32px 36px;
+  max-width: 335px;
+  background: #f3f3f3;
+}
+.reviews_img {
+  border-radius: 100%;
+  stroke-width: 2px;
+  stroke: #fbfbfb;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+.container_reviews_itam_info {
+  max-width: 263px;
+}
+.reviews_title_item {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+}
+.reviews_text_item {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(12, 12, 12, 0.4);
+}
+.reviews_itam_mob {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container_reviews {
+    margin-bottom: 80px;
+  }
+  .title_reviews {
+    font-size: 48px;
+    margin-bottom: 40px;
+    line-height: 0.92;
+  }
+  .reviews_list {
+    display: flex;
+    gap: 16px;
+  }
+  .reviews_item,
+  .reviews_itam_mob {
+    display: contents;
+  }
+  .reviews_itam_tab {
+    display: none;
+  }
+  .conteiner_reviews_list {
+    width: 704px;
+  }
+  .container_reviews_itam {
+    min-width: 344px;
+  }
+  .container_reviews_itam_info {
+    min-width: 272px;
+  }
+  .reviews_title_item {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+  .reviews_text_item {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container_reviews {
+    margin-bottom: 100px;
+    padding: 0 65px;
+  }
+  .reviews_itam_tab {
+    display: contents;
+  }
+  .conteiner_reviews_list {
+    width: 1150px;
+  }
+  .reviews_list {
+    display: flex;
+    gap: 20px;
+  }
+  .container_reviews_itam {
+    min-width: 370px;
+  }
+  .container_reviews_itam_info {
+    min-width: 298px;
+  }
+}
