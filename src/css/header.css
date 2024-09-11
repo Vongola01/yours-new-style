@@ -36,7 +36,8 @@
   transform: translate(-50%, -50%);
   z-index: 999;
 
-  background-image: url('../img/mob-menu/watch-bg-mob@1x.jpg');
+  background-image: url("../img/mob-menu/watch-bg-mob@1x.jpg"), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto;
@@ -48,7 +49,9 @@
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .mob-menu {
-    background-image: url(../img/mob-menu/watch-bg-mob@2x.jpg);
+
+      background-image: url(../img/mob-menu/watch-bg-mob@2x.jpg), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
+
   }
 }
 .mob-menu.is-open {
@@ -78,11 +81,12 @@
   display: block;
   position: absolute;
 
-  margin-left: auto;
-  top: 20px;
-  right: 20px;
-  border: none;
-  background-color: transparent;
+    margin-left: auto;
+    top: 20px;
+    right: 70px;
+    border: none;
+    background-color: transparent;
+
 }
 .mob-menu-close-icon {
   fill: #fff;
@@ -179,8 +183,12 @@
     width: 40px;
     height: 40px;
   }
+  .mob-menu-close-btn {
+    top: 26px;
+    right: 252px;
+  }
   .mob-menu {
-    background-image: url(../img/mob-menu/watch-bg-tab@1x.jpg);
+    background-image: url(../img/mob-menu/watch-bg-tab@1x.jpg), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
     width: 330px;
     height: 1024px;
   }
@@ -188,7 +196,9 @@
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .mob-menu {
-      background-image: url(../img/mob-menu/watch-bg-tab@2x.jpg);
+
+        background-image: url(../img/mob-menu/watch-bg-tab@2x.jpg), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
+
     }
   }
 
