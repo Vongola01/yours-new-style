@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Gilroy';
   src: url('../font/Gilroy-Regular.eot');
-  src: local('Gilroy Regular'), local('Gilroy-Regular'),
+  src: local('../font/Gilroy Regular'), local('../font/Gilroy-Regular'),
     url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
     url('Gilroy-Regular.woff2') format('woff2'),
     url('Gilroy-Regular.woff') format('woff'),
@@ -13,11 +13,11 @@
 @font-face {
   font-family: 'Gilroy';
   src: url('../font/Gilroy-Bold.eot');
-  src: local('Gilroy Bold'), local('Gilroy-Bold'),
-    url('Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
-    url('Gilroy-Bold.woff2') format('woff2'),
-    url('Gilroy-Bold.woff') format('woff'),
-    url('Gilroy-Bold.ttf') format('truetype');
+  src: local('../font/Gilroy Bold'), local('../font/Gilroy-Bold'),
+    url('font/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('font/Gilroy-Bold.woff2') format('woff2'),
+    url('font/Gilroy-Bold.woff') format('woff'),
+    url('font/Gilroy-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -25,7 +25,7 @@
 @font-face {
   font-family: 'Gilroy';
   src: url('../font/Gilroy-Semibold.eot');
-  src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+  src: local('../font/Gilroy Semibold'), local('../font/Gilroy-Semibold'),
     url('Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
     url('Gilroy-Semibold.woff2') format('woff2'),
     url('Gilroy-Semibold.woff') format('woff'),
@@ -37,7 +37,7 @@
 @font-face {
   font-family: 'Gilroy';
   src: url('../font/Gilroy-Medium.eot');
-  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+  src: local('../font/Gilroy Medium'), local('../font/Gilroy-Medium'),
     url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
     url('Gilroy-Medium.woff2') format('woff2'),
     url('Gilroy-Medium.woff') format('woff'),
