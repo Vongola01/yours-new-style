@@ -31,12 +31,12 @@
 .mob-menu {
   visibility: hidden;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  right: 0;
+  height: 100%;
   z-index: 999;
 
-  background-image: url("../img/mob-menu/watch-bg-mob@1x.jpg"), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
+  background-image: url('../img/mob-menu/watch-bg-mob@1x.jpg'),
+    linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92));
 
   background-repeat: no-repeat;
   background-position: center;
@@ -49,9 +49,8 @@
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
   .mob-menu {
-
-      background-image: url(../img/mob-menu/watch-bg-mob@2x.jpg), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
-
+    background-image: url(../img/mob-menu/watch-bg-mob@2x.jpg),
+      linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92));
   }
 }
 .mob-menu.is-open {
@@ -81,12 +80,11 @@
   display: block;
   position: absolute;
 
-    margin-left: auto;
-    top: 20px;
-    right: 70px;
-    border: none;
-    background-color: transparent;
-
+  margin-left: auto;
+  top: 20px;
+  right: 70px;
+  border: none;
+  background-color: transparent;
 }
 .mob-menu-close-icon {
   fill: #fff;
@@ -188,7 +186,8 @@
     right: 252px;
   }
   .mob-menu {
-    background-image: url(../img/mob-menu/watch-bg-tab@1x.jpg), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
+    background-image: url(../img/mob-menu/watch-bg-tab@1x.jpg),
+      linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92));
     width: 330px;
     height: 1024px;
   }
@@ -196,9 +195,8 @@
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
     .mob-menu {
-
-        background-image: url(../img/mob-menu/watch-bg-tab@2x.jpg), linear-gradient(rgba(12, 12, 12, 0.92),rgba(12, 12, 12, 0.92));
-
+      background-image: url(../img/mob-menu/watch-bg-tab@2x.jpg),
+        linear-gradient(rgba(12, 12, 12, 0.92), rgba(12, 12, 12, 0.92));
     }
   }
 
